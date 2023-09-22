@@ -1,0 +1,179 @@
+nav
+{
+    height: 28px;
+    width: 100%;
+    background-color: rgba(0, 255, 0, 0.231);
+    display: flex;
+    
+    position: fixed;
+    
+
+
+}
+
+
+
+nav ul
+{
+list-style: none;
+}
+
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(ss.jpg);
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+footer
+{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 100%;
+}
+
+.cnt
+{
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    background: #161616;
+    z-index: 1;
+    transition: 0.5s ease;
+    transform: translateX(-250px);
+    text-decoration: none;
+}
+
+
+input
+{
+-webkit-appearance: none;
+visibility: hidden;
+display: none;
+
+
+}
+
+span
+{
+    position: absolute;
+    right: -40px;
+    top: 30px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: green;
+    margin-right: -25px;
+ display: block;
+margin-top: -36px;
+
+}
+
+#bars
+{
+    background:black;
+}
+
+#check:checked ~ .cnt 
+{ 
+    transform: translateX(0);
+}
+
+nav .m2
+{
+    margin-left: 47%;
+    margin-top: -20px;
+    position: absolute;
+    font-size: 20px;
+   
+    
+
+}
+nav .c2 
+{
+
+   margin-left: 88%;
+   margin-top: 4px;
+
+}
+nav .c2 a
+{
+    
+    margin: 4px;
+    color: #fff;
+}
+
+.intro
+{
+    
+    position: absolute;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+
+.btn
+{
+
+    position: absolute;
+    top: 30%; 
+    margin-left: 25%;
+    
+    
+
+}
+.cnt ul li 
+{
+
+list-style: none;
+margin: 30px;
+font-size: 25px;
+list-style: none;
+color: #fff;
+
+
+
+}
+
+
+.cnt ul li a 
+{
+
+color: #fff;
+list-style: none;
+
+}
+
+.btn button
+{
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+    border-left: 5px;
+    
+    
+}
+.zx
+{
+    height: 100%;
+    width: 4px;
+    background-color: #161616;
+    margin: 2px;
+}
+
+
+
+
+
+
